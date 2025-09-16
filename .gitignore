@@ -1,0 +1,11 @@
+.vscode/
+.str
+.jou
+.log
+.rpx
+.sch
+rv32-5s-core-vivado/rv32-5s-core-vivado.cache/
+rv32-5s-core-vivado/rv32-5s-core-vivado.hw/
+rv32-5s-core-vivado/rv32-5s-core-vivado.runs/
+rv-5s-core-vivado/rv32-5s-core-vivado.sim/
+rv32-5s-core-vivado/rv32-5s-core-vivado.ip_user_files/

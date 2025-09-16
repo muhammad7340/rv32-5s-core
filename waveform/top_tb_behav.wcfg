@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="35.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="124.401 ns"></ZoomEndTime>
+      <Cursor1Time time="35.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject type="logic" fp_name="/top_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/cycle">
+      <obj_property name="ElementShortName">cycle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider190" type="divider">
+      <obj_property name="label">                               IF                                                   </obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#E0FFFF</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dbg_pc_IF">
+      <obj_property name="ElementShortName">dbg_pc_IF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_pc_IF[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dbg_inst_IF">
+      <obj_property name="ElementShortName">dbg_inst_IF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_inst_IF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider190" type="divider">
+      <obj_property name="label">                               ID                                                   </obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#00FF7F</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dbg_pc_ID">
+      <obj_property name="ElementShortName">dbg_pc_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_pc_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider190" type="divider">
+      <obj_property name="label">                               EX                                                   </obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#00FFFF</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dbg_pc_EX">
+      <obj_property name="ElementShortName">dbg_pc_EX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_pc_EX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dbg_alu_result_EX">
+      <obj_property name="ElementShortName">dbg_alu_result_EX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_alu_result_EX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider190" type="divider">
+      <obj_property name="label">                              MEM                                                   </obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#FFA500</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dbg_pc_MEM">
+      <obj_property name="ElementShortName">dbg_pc_MEM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_pc_MEM[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dbg_alu_result_MEM">
+      <obj_property name="ElementShortName">dbg_alu_result_MEM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_alu_result_MEM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider190" type="divider">
+      <obj_property name="label">                               WB                                                   </obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#800080</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dbg_pc_WB">
+      <obj_property name="ElementShortName">dbg_pc_WB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_pc_WB[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dbg_rd_WB">
+      <obj_property name="ElementShortName">dbg_rd_WB[4:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_rd_WB[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dbg_write_data">
+      <obj_property name="ElementShortName">dbg_write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/dbg_reg_write_WB">
+      <obj_property name="ElementShortName">dbg_reg_write_WB</obj_property>
+      <obj_property name="ObjectShortName">dbg_reg_write_WB</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider190" type="divider">
+      <obj_property name="label">                 Branch Control                                                   </obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#FFD700</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/dbg_flush">
+      <obj_property name="ElementShortName">dbg_flush</obj_property>
+      <obj_property name="ObjectShortName">dbg_flush</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dbg_pc_sel">
+      <obj_property name="ElementShortName">dbg_pc_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_pc_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dbg_next_pc">
+      <obj_property name="ElementShortName">dbg_next_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_next_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/dbg_inst_ID">
+      <obj_property name="ElementShortName">dbg_inst_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dbg_inst_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/alu_result_EX">
+      <obj_property name="ElementShortName">alu_result_EX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result_EX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/dbg_mem_write_MEM">
+      <obj_property name="ElementShortName">dbg_mem_write_MEM</obj_property>
+      <obj_property name="ObjectShortName">dbg_mem_write_MEM</obj_property>
+   </wvobject>
+</wave_config>
